@@ -5,12 +5,26 @@ title: Home
 
 <h1>🚀 Blog của tớ</h1>
 
-<ul class="post-list">
+<div class="post-grid">
   {% for post in site.posts %}
-    <li class="post-item">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-      <small>📅 {{ post.date | date: "%d-%m-%Y" }}</small>
-    </li>
+    <div class="post-card">
+      
+      <img src="{{ post.image }}" class="post-img">
+
+      <div class="post-content">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+        <p>{{ post.excerpt }}</p>
+
+        <div class="tags">
+          {% for tag in post.tags %}
+            <span>#{{ tag }}</span>
+          {% endfor %}
+        </div>
+
+        <small>📅 {{ post.date | date: "%d-%m-%Y" }}</small>
+      </div>
+
+    </div>
   {% endfor %}
-</ul>
+</div>
