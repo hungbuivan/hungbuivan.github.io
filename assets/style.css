@@ -1,16 +1,75 @@
-/* GRID */
-.post-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  background: #f8f9fb;
 }
 
-/* CARD */
+/* NAVBAR */
+.navbar {
+  background: white;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* CONTENT */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* BLOG */
+.post-grid {
+  display: grid;
+  gap: 25px;
+}
+
 .post-card {
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
   transition: 0.3s;
 }
 
@@ -20,57 +79,23 @@
 
 .post-img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
-  display: block;
 }
 
 .post-content {
-  padding: 15px;
+  padding: 20px;
 }
 
-/* TAG */
-.tags span {
-  display: inline-block;
-  background: #667eea;
-  color: white;
-  padding: 3px 8px;
-  margin-right: 5px;
-  border-radius: 5px;
-  font-size: 12px;
-}
-.tag-filter {
-  margin-bottom: 20px;
+.post-content h2 {
+  margin-top: 0;
 }
 
-.tag-filter span {
-  display: inline-block;
-  background: #ddd;
-  padding: 6px 10px;
-  margin-right: 8px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.tag-filter span:hover {
-  background: #667eea;
-  color: white;
-}
-.container {
-  display: flex;
-  max-width: 1000px;
-  margin: 40px auto;
-  gap: 30px;
-}
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
-}
-.navbar {
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
   background: #111;
-  padding: 12px 0;
-}
-
-.navbar a {
-  margin-left: 20px;
-  font-weight: 500;
+  color: white;
 }

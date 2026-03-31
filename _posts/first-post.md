@@ -2,7 +2,7 @@
 layout: default
 title: "Cách connect Flutter với Spring Boot"
 date: 2026-03-30
-image: "https://picsum.photos/800/400"
+image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
 tags: [Flutter, Backend]
 ---
 
