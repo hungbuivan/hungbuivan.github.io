@@ -4,6 +4,7 @@ title: "Cách connect Flutter với Spring Boot"
 date: 2026-03-30
 image: "https://via.placeholder.com/800x400"
 tags: [Flutter, Backend]
+layout: post
 ---
 
 ## 🚀 Giới thiệu

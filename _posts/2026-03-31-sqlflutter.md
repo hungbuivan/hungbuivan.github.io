@@ -4,6 +4,7 @@ title: "Kết nối MySQL với Spring Boot"
 date: 2026-03-25
 image: "https://via.placeholder.com/800x400"
 tags: [Backend]
+layout: post
 ---
 
 ## 🛠 Config

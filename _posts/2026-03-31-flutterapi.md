@@ -4,6 +4,7 @@ title: "Flutter gọi API như thế nào?"
 date: 2026-03-31
 image: "https://via.placeholder.com/800x400"
 tags: [Flutter]
+layout: post
 ---
 
 ## 🚀 Vấn đề
